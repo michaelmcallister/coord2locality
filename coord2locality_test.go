@@ -42,26 +42,26 @@ func TestCoordinatesToLocation(t *testing.T) {
 			lat:       0,
 			lon:       0,
 			want:      Location{Locality: "fake", Lat: 0, Long: 0},
-			locations: []Location{Location{Locality: "fake", Lat: 0, Long: 0}},
+			locations: []Location{{Locality: "fake", Lat: 0, Long: 0}},
 		},
 		{
 			lat:  -33.8681091,
 			lon:  151.1931297,
 			want: Location{Postcode: "2009", State: "NSW", Locality: "PYRMONT", Lat: -33.871222, Long: 151.193055},
 			locations: []Location{
-				Location{
+				{
 					Locality: "CANBERRA",
 					Postcode: "2600",
 					Long:     0,
 					Lat:      0,
 				},
-				Location{
+				{
 					Locality: "PYRMONT",
 					State:    "NSW",
 					Postcode: "2009",
 					Long:     151.193055,
 					Lat:      -33.871222,
-				}, Location{
+				}, {
 					Locality: "GREENFIELDS",
 					State:    "WA",
 					Postcode: "6210",
