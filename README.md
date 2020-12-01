@@ -3,7 +3,7 @@
 ![GitHub go.mod Go version][goversion-url]
 ![Go Report Card][goreport-url]
 [![Coverage Status](https://coveralls.io/repos/github/michaelmcallister/coord2locality/badge.svg)](https://coveralls.io/github/michaelmcallister/coord2locality)
-[![Build Status](https://travis-ci.org/michaelmcallister/coord2locality.svg?branch=main)](https://travis-ci.org/michaelmcallister/coord2locality)
+[![Build Status](https://travis-ci.org/michaelmcallister/coord2locality.svg?branch=master)](https://travis-ci.org/michaelmcallister/coord2locality)
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
